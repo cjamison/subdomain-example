@@ -1,0 +1,11 @@
+<h2><%= current_blog.name %> Posts</h2>
+<p id="notice"><%= notice %></p>
+
+<%= link_to 'New Post', new_post_path, style: "color: red;" %>
+<p>
+  <% for post in @posts %>
+    <%= link_to post.title, post_path(post) %><br>
+  <% end %>
+</p>
+
+<%= link_to 'Blogs', root_url(subdomain: ""), style: "color: blue;" %>
