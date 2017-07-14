@@ -1,24 +1,14 @@
-# README
+# Subdomain Example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This example rails app shows how to route subdomains for specific blogging areas. 
+Only a few changes using CNAMEs would allow domain routing.
 
-Things you may want to cover:
+References used to build:
 
-* Ruby version
+http://railscasts.com/episodes/123-subdomains-revised?autoplay=true
+https://www.youtube.com/watch?v=ycQdODGU6yA # Drifting Ruby
+https://stackoverflow.com/questions/10402777/share-session-cookies-between-subdomains-in-rails
+http://tomdallimore.com/blog/how-to-run-with-rails-setup-subdomains-in-your-routes/
+http://zen.id.au/how-to-manage-multiple-domains--subdomains-with-rails-4-on-heroku/
+http://guides.rubyonrails.org/routing.html
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

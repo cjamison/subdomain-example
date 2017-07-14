@@ -5,7 +5,6 @@ class RouteSubdomain
       false
     else
       true
-      # Blog.where(domain: request.host).any?
   end
 end
 
@@ -22,6 +21,7 @@ Rails.application.routes.draw do
     root "blogs#index"
   end
 
+  # Simpler Style
   # get '', to: 'blogs#show', constraints: lambda { |r| r.subdomain.present? && r.subdomain != 'www' }
   # root to: "blogs#index"
   # resources :blogs
