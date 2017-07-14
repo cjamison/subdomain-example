@@ -1,7 +1,6 @@
 # Subdomain Example
 
 This example rails app shows how to route subdomains for specific blogging areas. 
-Only a few changes using CNAMEs would allow domain routing.
 
 References used to build:
 
